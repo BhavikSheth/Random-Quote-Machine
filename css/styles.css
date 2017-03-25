@@ -1,0 +1,81 @@
+body {
+  background-color: #16A085;
+  font-family: Arial, Helvetica;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 8%;
+  letter-spacing: 1px;
+}
+
+#quote-box {
+  border-radius: 5px;
+  margin: auto;
+  padding: 40px 45px;
+  width: 450px;
+  background-color: #fff;
+  display: table;
+}
+
+.quote {
+  text-align: center;
+  margin: 0 0 15px 0;
+  padding: 0;
+  color: #16A085;
+}
+
+.author {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  color: #16A085;
+}
+
+.buttons {
+  padding-top: 20px;
+}
+
+button {
+  background-color: #16A085;
+  color: #fff;
+  border: none;
+  height: 40px;
+  font-size: 1em;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.twitter {
+  float: left;
+  font-size: 1.4em;
+  width: 40px;
+  padding-top: 7px;
+  padding-left: 10px;
+}
+
+.newquote {
+  float: right;
+}
+
+.name {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.name a {
+  color: #fff;
+  
+}
